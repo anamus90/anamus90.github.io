@@ -3,12 +3,11 @@
 port: 4000
 host: 0.0.0.0
 safe: false
-repository: anamus90/anamus90.github.io
 
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
+permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
@@ -16,8 +15,8 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "Sumana Srivatsa"
-keywords:    "sumana srivatsa, computational biology, causal inference"
-description: "Sumana's personal website."
+keywords:    "sumana srivatsa, causal inference, computational biology"
+description: "This is Sumana's personal page."
 source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
