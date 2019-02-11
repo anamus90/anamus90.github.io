@@ -1,3 +1,1 @@
-
-This is a compressed-commit version of
-[github.com/t413/SinglePaged](https://github.com/t413/SinglePaged)
+Website created by Sumana Srivatsa based on template by Tim O'Brien (http://t413.com/SinglePaged/)
