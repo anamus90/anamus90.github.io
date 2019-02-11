@@ -3,6 +3,7 @@
 port: 4000
 host: 0.0.0.0
 safe: false
+repository: anamus90/anamus90.github.io
 
 
 ### site serving configuration ###
@@ -14,12 +15,12 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Title: Edit me in _config.yml!"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
+title:       "Sumana Srivatsa"
+keywords:    "sumana srivatsa, computational biology, causal inference"
+description: "Sumana's personal website."
 source_link: "https://github.com/t413/SinglePaged"
-favicon:     #put a path like: "img/favicon.ico"
-touch_icon:  #put a path like: "img/apple-touch-icon.png"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
 
 
