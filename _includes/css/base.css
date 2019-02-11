@@ -21,6 +21,11 @@
 	#Forms
 	#Misc */
 
+/*
+.soccerscheduletablestyle * {
+
+}
+*/
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -43,10 +48,33 @@
 	q:before, q:after {
 		content: '';
 		content: none; }
-	table {
+/*	table {
 		border-collapse: collapse;
-		border-spacing: 0; }
+		border-spacing: 2px;
+                border: 2px solid black; }
+*/
 
+
+	table { 
+	    width: 750px; 
+	    border-collapse: collapse; 
+	    margin:50px auto;
+	    }
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+	    background: #757575; 
+	    }
+	th { 
+	    background: #3498db; 
+	    color: white; 
+	    font-weight: bold; 
+	    }
+	td, th { 
+	    padding: 10px; 
+	    border: 1px solid #ccc; 
+	    text-align: left; 
+	    font-size: 18px;
+	    } 
 
 /* #Basic Styles
 ================================================== */
