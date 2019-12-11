@@ -27,9 +27,9 @@ google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable
 colors:
   black:     '#111111'
   white:     '#f8f8f8'
-  green1:    '#CFF09E'
+  green1:    '#C5EB8E'
   green2:    '#A8DBA8'
-  green3:    '#79BD9A'
+  #green3:    '#79BD9A'
   green4:    '#3B8686'
   green5:    '#0B486B'
   #blue:      '#49a7e9'
